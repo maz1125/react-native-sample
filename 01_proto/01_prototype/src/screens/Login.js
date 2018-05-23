@@ -5,6 +5,7 @@ import { StyleSheet, View } from 'react-native';
 
 import Logo from '../elements/Logo';
 import NewRegisterBtn from '../elements/NewRegisterBtn';
+import SnsCertification from '../elements/SnsCertification';
 
 // const ons = require('onsenui');
 // const Ons = require('react-onsenui');
@@ -15,6 +16,7 @@ class Login extends React.Component {
       <View>
         <Logo />
         <NewRegisterBtn />
+        <SnsCertification />
       </View>
     );
   }
